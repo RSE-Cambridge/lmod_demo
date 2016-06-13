@@ -1,5 +1,15 @@
 # lmod_test
 
+## Getting Started
+
+Pre-reqs: an install of Lmod.
+
+In the base directory of lmod_test there is a script that contains the
+environment variable settings required to load lmod and set the lmod path 
+to lmod_test. Please edit the designated paths in this file for your 
+machine.
+
+
 ## apps
 This directory contains mock installs of apps. They are arranged in a tree of 
 compiler version, app version, and (where neccessary) MPI version.
