@@ -4,6 +4,7 @@
 family("compiler")
 local gnu_ver = "5.1"
 local mroot = os.getenv("MODULEPATH_ROOT")
+local approot = os.getenv("COSMOS_APP_PATH")
 local mdir = pathJoin(mroot,"compiler/gcc", gnu_ver)
 prepend_path("MODULEPATH", mdir)
-prepend_path("PATH", pathJoin("/slow/data/cosmos/dev/modules_test/apps/core/gcc/", gnu_ver, "bin"))
+prepend_path("PATH", pathJoin(approot, "core", "gcc", gnu_ver, "bin"))

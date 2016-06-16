@@ -1,2 +1,2 @@
 
-setenv("COSMOS_APP_PATH", "/slow/data/cosmos/dev/modules_test/apps")
+setenv("COSMOS_APP_PATH", "/home/jb914/dev/lmod_test/apps")
