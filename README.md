@@ -1,4 +1,4 @@
-# lmod_test
+# LMod Demo
 
 ## Getting Started
 
@@ -60,4 +60,4 @@ explain how these are easily implemented and extended using lmod's generic
 modulefiles and symlink hackery.
 
 
-Enjoy. James Briggs (jb914)
+Enjoy. James Briggs
